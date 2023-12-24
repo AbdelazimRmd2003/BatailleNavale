@@ -41,8 +41,14 @@ int makeMove(Grid *grid, int x, int y) {
     return 0;  // Indicate a miss (0) if none of the above conditions are met
 }
 
-// Function to play the game
-
+/**
+ * @brief Make a random shoot of the computer
+ *
+ * @param grid.
+ *
+ * @return 
+ *
+ */
 void computerMove(Grid *grid) {
     int x, y;
     do {
