@@ -34,8 +34,15 @@ BoatDesc createBoat(int size, int xRef, int yRef, char orientation) {
 }
 
 
-
-// make move sert a lordi et au joueur la difference c 'est qu'il est l' ordi adeja fait ses verification avant
+/**
+ * @brief Place boats on the grid.
+ *
+ * @param grid 
+ * @param boat 
+ *
+ * @return 0 if it failed to place and 1 if it placed.
+ *
+ */
 int placeBoatOnGrid(Grid *grid, BoatDesc *boat) {
     // Iterate over each part of the boat to check if it can be placed
     for (int i = 0; i < boat->size; i++) {
