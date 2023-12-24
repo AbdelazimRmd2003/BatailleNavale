@@ -15,10 +15,6 @@
 /**
  * @brief Create boats.
  *
- * Cette fonction calcule la somme de deux entiers. Elle démontre comment
- * utiliser les commentaires Doxygen pour documenter le but et le comportement
- * d'une fonction ainsi que ses paramètres et sa valeur de retour.
- *
  * @param a Le premier nombre à ajouter. Cela devrait être un entier positif ou négatif.
  * @param b Le second nombre à ajouter. Comme 'a', cela peut être n'importe quel entier.
  * @return La somme des deux nombres entiers.
