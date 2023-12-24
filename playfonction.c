@@ -46,7 +46,7 @@ int makeMove(Grid *grid, int x, int y) {
  *
  * @param grid.
  *
- * @return 
+ * @note
  *
  */
 void computerMove(Grid *grid) {
@@ -60,7 +60,16 @@ void computerMove(Grid *grid) {
     makeMove(grid, x, y);  // Make the move
 }
 
+/**
+ * @brief Take the input of the player to kill the boats af the other player 
+ *
+ * @param playerGrid.
+ * @param computerGrid.
 
+ *
+ * @note
+ *
+ */
 void playGame(Grid *playerGrid, Grid *computerGrid) {
     int x, y, moveResult;
     int playerTurn = 1;  // Start with the player's turn
