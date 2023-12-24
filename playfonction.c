@@ -12,7 +12,7 @@
  * @param x The abscissa.
  * @param y The ordinate.
  *
- * @return The structure of the new boat.
+ * @return -1 Indicate invalid move (previously shot here), 0 Indicate a miss (0) if none of the above conditions are met, 1 If the cell contains a boat, mark it as wrecked and return a hit.
  *
  */
 int makeMove(Grid *grid, int x, int y) {
