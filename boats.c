@@ -1,4 +1,4 @@
-
+ 
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -16,8 +16,8 @@
  * @brief Create boats.
  *
  * @param size The size of the boat.
- * @param xRef 
- * @param yRef 
+ * @param xRef The abscissa
+ * @param yRef The ordinate
  * @param orientation 
  *
  * @return The structure of the new boat.
