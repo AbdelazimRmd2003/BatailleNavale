@@ -33,7 +33,16 @@ BoatDesc createBoat(int size, int xRef, int yRef, char orientation) {
     return newBoat;
 }
 
-
+int isThereABoat(Grid *grid) {
+    for (int x = 0; x < grid->size; x++) {
+        for (int y = 0; y < grid->size; y++) {
+            // Check if there's a boat at this position
+            if (grid->grid[x][y] == BOAT) {
+                return 1;  // Return 1 if at least one boat is still afloat
+            }
+        }
+    }
+    return 0;  // Return 0 if no boats are found, meaning all have been sunk
 /**
  * @brief Place boats on the grid.
  *
