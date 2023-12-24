@@ -65,7 +65,6 @@ void computerMove(Grid *grid) {
  *
  * @param playerGrid.
  * @param computerGrid.
-
  *
  * @note
  *
