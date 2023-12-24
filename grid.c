@@ -14,7 +14,6 @@
 /**
  * @brief create a grid for play
  *
-
  * @param size of grade
  * @return a new grid 
  *
