@@ -4,6 +4,17 @@
 #include "grid.h"
 #include "boats.h"
 #include "types.h"
+
+/**
+ * @brief Create boats.
+ *
+ * @param grid.
+ * @param x The abscissa.
+ * @param y The ordinate.
+ *
+ * @return The structure of the new boat.
+ *
+ */
 int makeMove(Grid *grid, int x, int y) {
     // Check if coordinates are within the grid boundaries
     if (x >= 0 && x < grid->size && y >= 0 && y < grid->size) {
