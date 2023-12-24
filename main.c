@@ -12,8 +12,7 @@
 #define GREEN "\x1b[32m"   // Boat
 #define YELLOW "\x1b[33m"
 #define NB_BOATS_PER_PLAYER 5  // Define the number of boats per player
-
-
+// the main function begins by explaining begins by explaining the rules of the game then it declares the size of the boats then it calls the function placeBoatsManually for the user to place their boats with the parameters of the empty grid (only water) and the characteristics of the boats with the reference point on the left and it does the same for the computer except that it is random and the play game function allows you to play in turn while displaying the two tables and at the end the winner is determined
 int main() {
     srand(time(NULL));
 
@@ -45,7 +44,6 @@ int main() {
     for (int i = 0; i < NB_BOATS_PER_PLAYER; i++) {
         while (!placeBoatOnGrid(&computerGrid, &(BoatDesc){boatSizes[i], rand() % computerGrid.size, rand() % computerGrid.size, (rand() % 2) ? 'H' : 'V'})) {}
     }
-    printGrid(&computerGrid);
     
     printf("Welcome to Battleship!\n");
 
@@ -58,3 +56,7 @@ int main() {
 
     return 0;
 }
+
+
+
+
