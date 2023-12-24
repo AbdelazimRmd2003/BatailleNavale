@@ -70,7 +70,7 @@ int placeBoatOnGrid(Grid *grid, BoatDesc *boat) {
  * @param boatSizes 
  * @param numBoats
  *
- * @return 
+ * @note Use the input of the user and call placeBoatOnGrid to place the boat
  *
  */
 void placeBoatsManually(Grid *grid, int boatSizes[], int numBoats) {
