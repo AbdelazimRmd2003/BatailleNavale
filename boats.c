@@ -13,7 +13,7 @@
 #define GREEN "\x1b[32m"   // Boat
 #define YELLOW "\x1b[33m"
 /**
- * @brief Ajoute deux nombres entiers.
+ * @brief Create boats.
  *
  * Cette fonction calcule la somme de deux entiers. Elle démontre comment
  * utiliser les commentaires Doxygen pour documenter le but et le comportement
@@ -38,18 +38,7 @@ BoatDesc createBoat(int size, int xRef, int yRef, char orientation) {
 }
 
 
-int isThereABoat(Grid *grid) {
-    for (int x = 0; x < grid->size; x++) {
-        for (int y = 0; y < grid->size; y++) {
-            // Check if there's a boat at this position
-            if (grid->grid[x][y] == BOAT) {
-                return 1;  // Return 1 if at least one boat is still afloat
-            }
-        }
-    }
-    return 0;  // Return 0 if no boats are found, meaning all have been sunk
 
-}
 // make move sert a lordi et au joueur la difference c 'est qu'il est l' ordi adeja fait ses verification avant
 int placeBoatOnGrid(Grid *grid, BoatDesc *boat) {
     // Iterate over each part of the boat to check if it can be placed
