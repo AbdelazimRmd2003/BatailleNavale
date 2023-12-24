@@ -6,7 +6,7 @@
 #include "types.h"
 
 /**
- * @brief Create boats.
+ * @brief The function take a shoot in the coordinates x and y in a grid and verify if the shoot become a water shot or a wreck depending on whether the shot happened on a boat or in the water.
  *
  * @param grid.
  * @param x The abscissa.
