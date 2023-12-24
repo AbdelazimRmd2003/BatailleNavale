@@ -63,7 +63,16 @@ int placeBoatOnGrid(Grid *grid, BoatDesc *boat) {
     return 1;  // Success
 }
 
-// Function to place boats with specified sizes
+/**
+ * @brief Place boats manually.
+ *
+ * @param grid 
+ * @param boatSizes 
+ * @param numBoats
+ *
+ * @return 
+ *
+ */
 void placeBoatsManually(Grid *grid, int boatSizes[], int numBoats) {
     int x, y;
     char orientation;
