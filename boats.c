@@ -15,13 +15,13 @@
 /**
  * @brief Create boats.
  *
- * @param a Le premier nombre à ajouter. Cela devrait être un entier positif ou négatif.
- * @param b Le second nombre à ajouter. Comme 'a', cela peut être n'importe quel entier.
- * @return La somme des deux nombres entiers.
+ * @param size The size of the boat.
+ * @param xRef 
+ * @param yRef 
+ * @param orientation 
  *
- * @note Les utilisateurs de cette fonction doivent s'assurer que la somme ne dépasse pas
- *       les limites d'un entier pour éviter un dépassement.
- * @see soustraction(int, int) pour une opération similaire mais soustractive.
+ * @return The structure of the new boat.
+ *
  */
 
 BoatDesc createBoat(int size, int xRef, int yRef, char orientation) {
