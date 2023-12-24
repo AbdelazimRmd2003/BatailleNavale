@@ -43,6 +43,7 @@ int isThereABoat(Grid *grid) {
         }
     }
     return 0;  // Return 0 if no boats are found, meaning all have been sunk
+}
 /**
  * @brief Place boats on the grid.
  *
