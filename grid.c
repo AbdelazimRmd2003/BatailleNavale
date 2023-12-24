@@ -11,7 +11,15 @@
 #define RED "\x1b[31m"     // Hit boat part (Wreck)
 #define GREEN "\x1b[32m"   // Boat
 #define YELLOW "\x1b[33m"
+/**
+ * @brief create a grid for play
+ *
 
+ * @param size of grade
+ * @return a new grid 
+ *
+ * 
+ */
 Grid createGrid(int size) {
     Grid board; 
     board.size = size;
